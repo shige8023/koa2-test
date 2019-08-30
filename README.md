@@ -3,7 +3,7 @@
  * @Author: Rico.刘一飞
  * @Date: 2019-08-30 15:05:47
  * @LastEditors: Rico.刘一飞
- * @LastEditTime: 2019-08-30 15:43:03
+ * @LastEditTime: 2019-08-30 15:43:44
  -->
 # node demo
 
@@ -62,7 +62,8 @@ module.exports = {
 作者：luffyZh
 链接：https://juejin.im/post/5be406705188256dbb5176f9
 来源：掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。```
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+```
 
 
 ### 负载均衡
