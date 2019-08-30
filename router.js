@@ -3,7 +3,7 @@
  * @Author: Rico.刘一飞
  * @Date: 2019-08-20 16:09:55
  * @LastEditors: Rico.刘一飞
- * @LastEditTime: 2019-08-20 16:58:21
+ * @LastEditTime: 2019-08-30 15:00:10
  */
 
 const fs = require('fs');
@@ -17,10 +17,7 @@ const js_files = files.filter((f) => {
 })
 
 for (let i of js_files) {
-    // console.log(js_files, 'js_files')
-    // console.log(__dirname + '/controllers/' + i)
     let map = require(__dirname + '/controllers/' + i);
-    // console.log("TCL: map", map)
     for (url in map) {
         if (url.startsWith('GET ')) {
             let path = url.substring(4);

@@ -3,7 +3,7 @@
  * @Author: Rico.刘一飞
  * @Date: 2019-08-20 15:59:40
  * @LastEditors: Rico.刘一飞
- * @LastEditTime: 2019-08-20 16:04:19
+ * @LastEditTime: 2019-08-30 15:04:49
  */
 
 const htmlForm = `
@@ -29,6 +29,7 @@ const fn_index = async (ctx, next) => {
 }
 
 const fn_login = async (ctx) => {
+    console.log("TCL: fn_login -> ctx", ctx)
     let {name, password} = ctx.request.body;
     if (name === 'bob' && password === '123456') {
         ctx.response.body = `
