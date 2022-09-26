@@ -10,7 +10,7 @@
     "koa-router": "7.0.0"
   },
   "devDependencies": {
-    "pm2": "^3.5.1"
+    "pm2": "^5.2.0"
   },
   "scripts": {
     "start": "pm2 start app.js",
