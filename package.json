@@ -6,7 +6,7 @@
   "dependencies": {
     "dubbo2.js": "^2.3.9",
     "koa": "^2.8.1",
-    "koa-bodyparser": "3.2.0",
+    "koa-bodyparser": "4.3.0",
     "koa-router": "7.0.0"
   },
   "devDependencies": {
